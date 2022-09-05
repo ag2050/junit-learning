@@ -10,3 +10,14 @@
 <li>put() method creates a request builder for PUT method.</li>
 <li>delete() method creates a request builder for DELETE request.</li>
 <li>fileUpload() creates a request builder for multipart request.</li>
+
+<h3>Verifying The Response</h3><br>
+The ResultActions interface declares methods that we can use to apply actions to the result of an executed requests. These methods are described in the following:
+
+<li>void andExpect(ResultMatcher matcher) method is used to specify assertions to the result of the executed query.</li>
+<li>void andDo(ResultHandler handler) method is used to apply an action to the result of the request.</li>
+<li>MvcResult andReturn() method returns the result of the request.</li>
+<br>We can get more information about the actions that we can apply to the result of the executed requests by taking a look at the following classes:
+
+<li>The MockMvcResultMatchers class is used to specify assertions to the result of the request.</li>
+<li>The MockMvcResultHandlers class for finding out out what kind of actions we can perform to the result of the executed request.</li>
