@@ -5,8 +5,8 @@
 
 <h2>MvcResult:</h2>Provides access to the result of an executed request.
 <h2>MockMvcRequestBuilders:</h2>We can create the executed request by using the perform(RequestBuilder requestBuilder) method of the MockMvc class. The MockMvcRequestBuilders class provides static methods that we can use to create the actual request builders. These methods are described in the following:<br>
-<li>get() method creates a request builder for GET request.</li><br>
-<li>post() method creates a request builder for POST request.</li><br>
-<li>put() method creates a request builder for PUT method.</li><br>
-<li>delete() method creates a request builder for DELETE request.</li><br>
-<li>fileUpload() creates a request builder for multipart request.</li><br>
+<li>get() method creates a request builder for GET request.</li>
+<li>post() method creates a request builder for POST request.</li>
+<li>put() method creates a request builder for PUT method.</li>
+<li>delete() method creates a request builder for DELETE request.</li>
+<li>fileUpload() creates a request builder for multipart request.</li>
