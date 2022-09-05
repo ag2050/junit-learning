@@ -14,9 +14,9 @@
 <h2>Verifying The Response:</h2>
 The ResultActions interface declares methods that we can use to apply actions to the result of an executed requests. These methods are described in the following:
 
-<li>void andExpect(ResultMatcher matcher) method is used to specify assertions to the result of the executed query.</li>
-<li>void andDo(ResultHandler handler) method is used to apply an action to the result of the request.</li>
-<li>MvcResult andReturn() method returns the result of the request.</li>
+<li>void <b>andExpect</b>(ResultMatcher matcher) method is used to specify assertions to the result of the executed query.</li>
+<li>void <b>andDo</b>(ResultHandler handler) method is used to apply an action to the result of the request.</li>
+<li>MvcResult <b>andReturn</b>() method returns the result of the request.</li>
 <br>We can get more information about the actions that we can apply to the result of the executed requests by taking a look at the following classes:
 
 <li>The MockMvcResultMatchers class is used to specify assertions to the result of the request.</li>
