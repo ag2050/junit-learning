@@ -11,7 +11,7 @@
 <li>delete() method creates a request builder for DELETE request.</li>
 <li>fileUpload() creates a request builder for multipart request.</li>
 
-<h3>Verifying The Response</h3><br>
+<h3>Verifying The Response:</h3>
 The ResultActions interface declares methods that we can use to apply actions to the result of an executed requests. These methods are described in the following:
 
 <li>void andExpect(ResultMatcher matcher) method is used to specify assertions to the result of the executed query.</li>
